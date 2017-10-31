@@ -1,6 +1,6 @@
 #home {
   color: black;
-  width: 100vh;
+  height: 70vh;
 
   p {
     margin-top: 1.5em;
@@ -12,7 +12,13 @@
   }
 }
 h1 {
-  font-family: "SIM", sans-serif;
-  font-size: 7vw;
+  font-family: "AG-Regular", sans-serif;
+  font-size: 9vw;
   margin-left: 2vw;
+}
+@keyframes blink {  
+  50% { opacity: 0; }
+}
+span .text-rotate {
+  animation: blink 1s linear infinite;
 }
