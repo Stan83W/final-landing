@@ -14,8 +14,10 @@
 }
 h1 {
   font-family: "NB", sans-serif;
-  font-size: 11vw;
+  font-size: 6.5em;
+  line-height: 1em;
   margin-left: 2vw;
+  width: 85%;
 }
 @keyframes blink {  
   50% { opacity: 0; }
