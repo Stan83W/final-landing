@@ -2,3 +2,8 @@
 @import "alert";
 @import "navbar";
 @import "footer";
+
+body {
+	position: relative;
+	height: 100vh;
+}
