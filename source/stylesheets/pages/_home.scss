@@ -27,18 +27,18 @@ span .text-rotate {
 .container {
   height: 50vh;
   width: 100%;
-  margin: 0;
   position: absolute;
-  margin-top: 30px;
-  padding-left: 30px !important;
+  margin: 30px 0 0 0;
+  padding: 0;
 }
 .card img {
   filter: drop-shadow(0.15em 0.15em 0.25em rgba(0,0,0,0.25)); 
 }
 .works-title {
   position: absolute;
-  text-align: left;
-  width: 40%;
+  text-align: center;
+  width: 100%;
+  margin: 0;
 }
 img:hover {
   transition: all 0.3s ease;
@@ -47,6 +47,7 @@ img:hover {
 }
 .flexbox {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 30px 0 0 0;
 }
