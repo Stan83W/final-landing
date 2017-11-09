@@ -21,7 +21,7 @@ h1 {
 @keyframes blink {  
   50% { opacity: 0; }
 }
-span .text-rotate {
+span .text-rotate > .wrap {
   animation: blink 1s linear infinite;
 }
 .container {
@@ -39,6 +39,9 @@ span .text-rotate {
   text-align: center;
   width: 100%;
   margin: 0;
+}
+img {
+  height: 20vh;
 }
 img:hover {
   transition: all 0.3s ease;
