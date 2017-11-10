@@ -55,6 +55,6 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.11em solid rgba(0,0,0,1); padding-right: 4vh; @keyframes blink 50% { border-color: black; }; animation: blink 1s linear infinite; }";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.11em solid rgba(0,0,0,1); padding-right: 1.5vh; @keyframes blink 50% { border-color: black; }; animation: blink 1s linear infinite; }";
   document.body.appendChild(css);
 };

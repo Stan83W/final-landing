@@ -15,8 +15,9 @@ h1 {
   font-family: "NSB", "NB";
   font-size: 5.7em;
   line-height: 1em;
-  margin-left: 2vw;
+  margin-top: 6vw;
   width: 100%;
+  text-align: center;
 }
 @keyframes blink {  
   0%   { border-color: rgba(0, 0, 0, 1); }
@@ -26,11 +27,12 @@ h1 {
 span .text-rotate > .wrap {
   animation: border-pulsate 2s infinite;
 }
+
 .container {
-  height: 50vh;
+  height: 120vh;
   width: 100%;
   position: absolute;
-  margin: 30px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 .card img {
@@ -41,6 +43,7 @@ span .text-rotate > .wrap {
   text-align: center;
   width: 100%;
   margin: 0;
+  margin-top: 30px;
 }
 img {
   height: 20vh;
@@ -54,5 +57,5 @@ img:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 60px 0 0 0;
+  margin: 30px 0 0 0;
 }
