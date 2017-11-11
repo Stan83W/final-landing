@@ -1,6 +1,11 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 #home {
   color: black;
-  height: 100vh;
+  height: 100%;
   margin: auto;
   p {
     margin-top: 1.5em;
@@ -31,7 +36,6 @@ span .text-rotate > .wrap {
 .container {
   height: 120vh;
   width: 100%;
-  position: absolute;
   margin: 0 0 0 0;
   padding: 0;
 }
