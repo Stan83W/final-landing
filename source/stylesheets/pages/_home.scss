@@ -5,7 +5,6 @@ html {
 
 #home {
   color: black;
-  height: 85vw;
   margin: auto;
   p {
     margin-top: 1.5em;
@@ -14,6 +13,7 @@ html {
     color: black;
     opacity: 75%;
     font-size: 0.7em;
+    cursor: pointer;
   }
 }
 h1 {
@@ -62,8 +62,11 @@ img:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 0 0 0;
+  margin: 0 0 0 0;
 }
 #subtitle {
   line-height: 2em;
+  span:hover {
+    cursor: pointer;
+  }
 }
