@@ -50,6 +50,17 @@ span .text-rotate > .wrap {
   margin-right: 25%;
   margin-top: 30px;
 }
+.works-title-2 {
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 90px;
+  a {
+    text-decoration: none;
+  }
+}
 img {
   height: 20vh;
 }
@@ -65,7 +76,7 @@ img:hover {
   margin: 0 0 0 0;
 }
 #subtitle {
-  line-height: 2em;
+  // line-height: 2em;
   span:hover {
     cursor: pointer;
   }
