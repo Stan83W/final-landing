@@ -75,6 +75,7 @@ img:hover {
   justify-content: space-between;
   align-items: center;
   margin: 0 0 0 0;
+  max-height: 65vh;
 }
 #subtitle {
   // line-height: 2em;
@@ -95,5 +96,5 @@ h3 {
   margin-top: 0;
 }
 #cred:hover {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.7);
 }
