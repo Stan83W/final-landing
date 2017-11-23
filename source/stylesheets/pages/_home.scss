@@ -18,7 +18,7 @@ html {
 }
 h1 {
   font-family: "NSB", "NB";
-  font-size: 10vw;
+  font-size: 9vw;
   line-height: 10vw;
   margin-top: 6vw;
   width: 100%;
@@ -44,20 +44,20 @@ span .text-rotate > .wrap {
   filter: drop-shadow(0.15em 0.15em 0.25em rgba(0,0,0,0.25)); 
 }
 .works-title {
-  position: absolute;
+  // position: absolute;
   text-align: center;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 30px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 0.6%;
 }
 .works-title-2 {
-  position: absolute;
+  font-size: 1vw !important;
+  // position: absolute;
   text-align: center;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  margin-top: 90px;
   a {
     text-decoration: none;
   }
@@ -78,7 +78,7 @@ img:hover {
 }
 #subtitle {
   // line-height: 2em;
-  span:hover {
+  span:hover .hvr-pulse-shrink {
     cursor: pointer;
   }
 }
@@ -89,4 +89,8 @@ img:hover {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 150px;
+}
+h3 {
+  font-size: 1vw;
+  margin-top: 0;
 }

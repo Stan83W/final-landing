@@ -118,7 +118,7 @@
 }
 .hvr-pulse-shrink {
   display: inline-block;
-  vertical-align: middle;
+  // vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
