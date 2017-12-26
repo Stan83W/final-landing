@@ -62,3 +62,5 @@ window.onload = function() {
 $(function() {
   AOS.init();
 });
+
+window.addEventListener('load', AOS.refresh);
