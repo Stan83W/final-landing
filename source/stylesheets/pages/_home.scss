@@ -1,23 +1,9 @@
-// html {
-//   height: 100%;
-//   box-sizing: border-box;
-// }
-
-#home {
-  color: black;
-  // margin: auto;
-  a {
-    color: black;
-    opacity: 75%;
-    font-size: 1vw;
-    cursor: pointer;
-  }
-}
 h1 {
   font-family: "NSB", "NB";
   font-size: 9vw;
   line-height: 10vw;
-  margin-top: 6vw;
+  margin-top: 10%;
+  margin-bottom: 10%;
   width: 100%;
   text-align: center;
   color: black !important;
@@ -36,10 +22,6 @@ span .text-rotate > .wrap {
   // margin: 10px;
   padding: 0;
 }
-// .card img {
-//   align-item: center;
-//   filter: drop-shadow(0.15em 0.15em 0.25em rgba(0,0,0,0.25)); 
-// }
 .works-title {
   // position: absolute;
   text-align: center;
@@ -63,6 +45,34 @@ img {
   width: 100%;
   padding: 2%;
 }
+#subtitle {
+  // line-height: 2em;
+  span:hover .hvr-pulse-shrink {
+    cursor: pointer;
+  }
+}
+.desc {
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 10%;
+  h3 {
+    font-size: 2em !important;
+    font-family: "NSB";
+    color: black;
+  }
+}
+// #cred:hover {
+//   color: rgba(0,0,0,0.7);
+// }
+// .items {
+//   position: absolute;
+//   text-align: center;
+//   width: 90%;
+//   margin-left: 5%;
+//   margin-right: 5%;
+//   margin-top: 150px;
+// }
 // img:hover {
 //   transition: all 0.3s ease;
 //   transform: scale(1.1);
@@ -75,24 +85,21 @@ img {
 //   margin: 0 0 0 0;
 //   max-height: 65vh;
 // }
-#subtitle {
-  // line-height: 2em;
-  span:hover .hvr-pulse-shrink {
-    cursor: pointer;
-  }
-}
-// .items {
-//   position: absolute;
-//   text-align: center;
-//   width: 90%;
-//   margin-left: 5%;
-//   margin-right: 5%;
-//   margin-top: 150px;
+// .card img {
+//   align-item: center;
+//   filter: drop-shadow(0.15em 0.15em 0.25em rgba(0,0,0,0.25)); 
 // }
-h3 {
-  font-size: 1vw;
-  margin-top: 0;
-}
-#cred:hover {
-  color: rgba(0,0,0,0.7);
-}
+// html {
+//   height: 100%;
+//   box-sizing: border-box;
+// }
+// #home {
+//   color: black;
+//   margin: auto;
+//   a {
+//     color: black;
+//     opacity: 75%;
+//     font-size: 1vw;
+//     cursor: pointer;
+//   }
+// }
