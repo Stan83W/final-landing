@@ -20,6 +20,7 @@ h1 {
   margin-top: 6vw;
   width: 100%;
   text-align: center;
+  color: black !important;
 }
 @keyframes blink {  
   0%   { border-color: rgba(0, 0, 0, 1); }
@@ -60,33 +61,34 @@ span .text-rotate > .wrap {
 }
 img {
   width: 100%;
+  padding: 2%;
 }
 // img:hover {
 //   transition: all 0.3s ease;
 //   transform: scale(1.1);
 //   cursor: pointer;
 // }
-.flexbox {
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
-  // margin: 0 0 0 0;
-  // max-height: 65vh;
-}
+// .flexbox {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   margin: 0 0 0 0;
+//   max-height: 65vh;
+// }
 #subtitle {
   // line-height: 2em;
   span:hover .hvr-pulse-shrink {
     cursor: pointer;
   }
 }
-.items {
-  position: absolute;
-  text-align: center;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 150px;
-}
+// .items {
+//   position: absolute;
+//   text-align: center;
+//   width: 90%;
+//   margin-left: 5%;
+//   margin-right: 5%;
+//   margin-top: 150px;
+// }
 h3 {
   font-size: 1vw;
   margin-top: 0;
