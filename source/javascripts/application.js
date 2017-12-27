@@ -59,8 +59,8 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-$(function() {
-  AOS.init();
-});
+// $(function() {
+//   AOS.init();
+// });
 
-window.addEventListener('load', AOS.refresh);
+// window.addEventListener('load', AOS.refresh);
