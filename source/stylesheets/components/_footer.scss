@@ -7,14 +7,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 5%;
-  padding: 0px 30px 0px 30px;
+  height: 8vh;
+  padding: 0px 2%;
   color: rgba(0,0,0,0.3);
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  // position: absolute;
+  // right: 0;
+  // bottom: 0;
+  // left: 0;
+  // width: 100%;
 }
 .footer-links {
   display: flex;
@@ -25,7 +25,7 @@
   opacity: 0.5;
   text-decoration: none;
   font-size: 0.7em;
-  padding: 0px 10px;
+  padding: 0px 10px 0px 0px;
 }
 .footer-links a:hover {
   opacity: 1;

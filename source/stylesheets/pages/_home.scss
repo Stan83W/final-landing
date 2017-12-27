@@ -1,28 +1,12 @@
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-#home {
-  color: black;
-  margin: auto;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: black;
-    opacity: 75%;
-    font-size: 1vw;
-    cursor: pointer;
-  }
-}
 h1 {
   font-family: "NSB", "NB";
   font-size: 9vw;
   line-height: 10vw;
-  margin-top: 6vw;
+  margin-top: 10%;
+  margin-bottom: 10%;
   width: 100%;
   text-align: center;
+  color: black !important;
 }
 @keyframes blink {  
   0%   { border-color: rgba(0, 0, 0, 1); }
@@ -35,13 +19,8 @@ span .text-rotate > .wrap {
 
 .container {
   height: 120vh;
-  width: 100%;
-  margin: 0 0 0 0;
+  // margin: 10px;
   padding: 0;
-}
-.card img {
-  align-item: center;
-  filter: drop-shadow(0.15em 0.15em 0.25em rgba(0,0,0,0.25)); 
 }
 .works-title {
   // position: absolute;
@@ -63,19 +42,8 @@ span .text-rotate > .wrap {
   }
 }
 img {
-  height: 20vh;
-}
-img:hover {
-  transition: all 0.3s ease;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-.flexbox {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 0 0 0;
-  // max-height: 65vh;
+  width: 100%;
+  padding: 2%;
 }
 #subtitle {
   // line-height: 2em;
@@ -83,18 +51,55 @@ img:hover {
     cursor: pointer;
   }
 }
-.items {
-  position: absolute;
+.desc {
   text-align: center;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 150px;
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 8%;
+  h3 {
+    font-size: 2em !important;
+    font-family: "NSB", "NB";
+    color: black;
+  }
 }
-h3 {
-  font-size: 1vw;
-  margin-top: 0;
-}
-#cred:hover {
-  color: rgba(0,0,0,0.7);
-}
+// #cred:hover {
+//   color: rgba(0,0,0,0.7);
+// }
+// .items {
+//   position: absolute;
+//   text-align: center;
+//   width: 90%;
+//   margin-left: 5%;
+//   margin-right: 5%;
+//   margin-top: 150px;
+// }
+// img:hover {
+//   transition: all 0.3s ease;
+//   transform: scale(1.1);
+//   cursor: pointer;
+// }
+// .flexbox {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   margin: 0 0 0 0;
+//   max-height: 65vh;
+// }
+// .card img {
+//   align-item: center;
+//   filter: drop-shadow(0.15em 0.15em 0.25em rgba(0,0,0,0.25)); 
+// }
+// html {
+//   height: 100%;
+//   box-sizing: border-box;
+// }
+// #home {
+//   color: black;
+//   margin: auto;
+//   a {
+//     color: black;
+//     opacity: 75%;
+//     font-size: 1vw;
+//     cursor: pointer;
+//   }
+// }
