@@ -1,7 +1,7 @@
 h1 {
   font-family: "NSB", "NB";
-  font-size: 9vw;
-  line-height: 10vw;
+  font-size: 8vw;
+  line-height: 9vw;
   margin-top: 10%;
   margin-bottom: 10%;
   width: 100%;
@@ -42,7 +42,7 @@ span .text-rotate > .wrap {
   }
 }
 img {
-  width: 100%;
+  max-width: 100%;
   padding: 2%;
 }
 #subtitle {
@@ -57,10 +57,15 @@ img {
   margin: auto;
   margin-bottom: 8%;
   h3 {
-    font-size: 2em !important;
+    font-size: 2vw !important;
     font-family: "NSB", "NB";
     color: black;
   }
+}
+img:hover {
+  transition: all 0.5s ease;
+  filter: brightness(0.95);
+  cursor: pointer;
 }
 
 // #cred:hover {
@@ -73,11 +78,6 @@ img {
 //   margin-left: 5%;
 //   margin-right: 5%;
 //   margin-top: 150px;
-// }
-// img:hover {
-//   transition: all 0.3s ease;
-//   transform: scale(1.1);
-//   cursor: pointer;
 // }
 // .flexbox {
 //   display: flex;
