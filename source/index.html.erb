@@ -12,6 +12,25 @@ title: Stanislas Wiart | Art Direction & Digital Design
     	   data-rotate='[ "Digital Design", "Branding", "Web Development", "UI/UX Design" ]'></span>
       </h1>
     </div>
+
+<!--   <div class="main-carousel">
+    <div class="carousel-cell">
+      <div class="" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="600">
+        <img src="../images/display-landing-v2-7.jpg" alt="">
+      </div>        
+    </div>
+    <div class="carousel-cell">
+      <div class="" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="600">
+        <img src="../images/display-landing-v2-10.jpg" alt="">
+      </div>        
+    </div>
+    <div class="carousel-cell">
+      <div class="" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="600">
+        <img src="../images/display-landing-v2-15.jpg" alt="">
+      </div>        
+    </div>
+  </div> -->
+
     <div class="" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="600">
       <img src="../images/display-landing-v2-7.jpg" alt="">
       <div class="desc">
@@ -69,7 +88,13 @@ title: Stanislas Wiart | Art Direction & Digital Design
         AOS.refresh();
     });
   </script>
-
+  <script>
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      contain: true
+    });
+  </script>
 
 <!--     <div class="row flexbox">
       <iframe src="https://player.vimeo.com/video/242470540?autoplay=1&loop=1&color=b3b3b3&title=0&byline=0&portrait=0" width="700" height="494" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
