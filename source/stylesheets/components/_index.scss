@@ -19,6 +19,7 @@ a {
 a:hover {
 	cursor: pointer;
 	filter: brightness(0.85);
+	color: rgba(0,0,0,0.7);
 	transition: all 0.5s ease;
 }
 .pg-title {
