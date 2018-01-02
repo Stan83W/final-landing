@@ -19,5 +19,11 @@
     <%= partial "layouts/navbar" %>
     <%= yield %>
     <%= partial "layouts/footer" %>
+    <script>
+      AOS.init();
+      $(window).on('load', function() {
+          AOS.refresh();
+      });
+    </script>
   </body>
 </html>

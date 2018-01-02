@@ -4,6 +4,7 @@
 @import "footer";
 @import "animate";
 @import "hovereffects";
+@import "about";
 
 body {
 	position: relative;
@@ -11,4 +12,15 @@ body {
 	// overflow-x: hidden; 
 	// overflow-y: scroll;
 	background-color: white !important;
+}
+a {
+  text-decoration: none !important;
+}
+a:hover {
+	cursor: pointer;
+	filter: brightness(0.85);
+	transition: all 0.5s ease;
+}
+.pg-title {
+	margin-top: 10% !important;
 }
