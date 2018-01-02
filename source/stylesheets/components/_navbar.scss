@@ -19,3 +19,9 @@ h2 {
   color: black !important;
   text-transform: uppercase;
 }
+.inside-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20vh;
+}
