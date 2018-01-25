@@ -7,13 +7,14 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
     <link href="stylesheets/application-74c51c9f.css" rel="stylesheet" />
-    <script src="javascripts/application-b0be2f1b.js"></script>
+    <script src="javascripts/application-f746ad9f.js"></script>
     <link href="images/images/favicon.png" rel="icon" type="image/png" />
     <meta name="description" content="Art Direction | Branding | Web Development | Digital Design">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <script src="//cdn.rawgit.com/mrdoob/three.js/master/build/three.min.js"></script>
   </head>
   <body>
     <div class="navbar-ok">
@@ -26,6 +27,97 @@
     <!-- <div class="obj">
 	<iframe id="vs_iframe" src="http://www.viewstl.com/?embedded&rotation=no&clean=yes&noborder=yes&orientation=bottom&bgcolor=white&color=gray&url=https://github.com/Stan83W/final-landing/raw/master/source/images/Augustus.stl" style="border:0;margin:0;width:100%;"></iframe>
 </div> -->
+
+
+<script src="http://threejs.org/build/three.min.js"></script>
+
+<script src="http://threejs.org/examples/js/loaders/STLLoader.js"></script>
+<!-- 
+<script>
+
+            var container, camera, scene, renderer;
+
+            init();
+            animate();
+
+            function init() {
+
+                container = document.createElement( 'div' );
+                document.body.appendChild( container );
+
+                // renderer
+
+                renderer = new THREE.WebGLRenderer( { antialias: true } );
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                container.appendChild( renderer.domElement );
+
+                // scene
+
+                scene = new THREE.Scene();
+
+                // camera
+
+                camera = new THREE.PerspectiveCamera( 35, window.innerWidth / window.innerHeight, 1, 10000 );
+                camera.position.set( 3, 0.5, 3 );
+                scene.add( camera ); // required, because we are adding a light as a child of the camera
+
+                // lights
+
+                scene.add( new THREE.AmbientLight( 0x222222 ) );
+
+                var light = new THREE.PointLight( 0xffffff, 0.8 );
+                camera.add( light );
+
+                // object
+
+                var loader = new THREE.STLLoader();
+                loader.load( './images/Augustus.stl', function ( geometry ) {
+
+                    var material = new THREE.MeshPhongMaterial( { color: 0xff5533 } );
+
+                    var mesh = new THREE.Mesh( geometry, material );
+
+                    scene.add( mesh );
+
+                } );
+
+                window.addEventListener( 'resize', onWindowResize, false );
+
+            }
+
+            function onWindowResize() {
+
+                camera.aspect = window.innerWidth / window.innerHeight;
+
+                camera.updateProjectionMatrix();
+
+                renderer.setSize( window.innerWidth, window.innerHeight );
+
+            }
+
+            function animate() {
+
+                requestAnimationFrame( animate );
+
+                render();
+
+            }
+
+            function render() {
+
+                var timer = Date.now() * 0.0005;
+
+                camera.position.x = Math.cos( timer ) * 5;
+                camera.position.z = Math.sin( timer ) * 5;
+
+                camera.lookAt( scene.position );
+
+                renderer.render( scene, camera );
+
+            }
+
+</script> -->
+
 <div class="infos">
 	<div class="desc">
 	  <h3>Art Director working in agencies and freelance with 7 years of experience across design, luxury and corporate communication.</h3>
