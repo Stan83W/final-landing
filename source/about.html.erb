@@ -6,13 +6,12 @@
 <script src="http://threejs.org/build/three.min.js"></script>
 
 <script src="http://threejs.org/examples/js/loaders/STLLoader.js"></script>
-<script>
+<!-- <script>
 var camera, scene, renderer;
 var geometry, material, mesh;
 
 init();
 animate();
-
 
 function init() {
 
@@ -49,14 +48,37 @@ function animate() {
 
 var loader = new THREE.STLLoader();
  
-loader.load('../images/Augustus.stl', function (geometry) {
+loader.load('../images/hand.stl', function (geometry) {
   var material = new THREE.MeshNormalMaterial()
   var mesh = new THREE.Mesh(geometry, material)
   scene.add(mesh)
 })
 
-</script>
+</script> -->
+<script src="Babylon.js"></script>
+<script src="babylon.stlFileLoader.js"></script>
+<script>
+	var delayCreateScene = function () {
+	    // Create a scene.
+	    var scene = new BABYLON.Scene(engine);
 
+	    // Create a default skybox with an environment.
+	    var hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData("textures/environment.dds", scene);
+	    var currentSkybox = scene.createDefaultSkybox(hdrTexture, true);
+
+	    // Append glTF model to scene.
+	    BABYLON.SceneLoader.Append("scenes/BoomBox/", "BoomBox.gltf", scene, function (scene) {
+	        // Create a default arc rotate camera and light.
+	        scene.createDefaultCameraOrLight(true, true, true);
+
+	        // The default camera looks at the back of the asset.
+	        // Rotate the camera by 180 degrees to the front of the asset.
+	        scene.activeCamera.alpha += Math.PI;
+	    });
+
+	    return scene;
+	};
+</script>
 
 <div class="infos">
 	<div class="desc">
