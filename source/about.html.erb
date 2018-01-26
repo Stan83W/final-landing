@@ -7,7 +7,7 @@
 
 <script src="http://threejs.org/examples/js/loaders/STLLoader.js"></script>
 
-<script>
+<!-- <script>
 	// Set up the scene, camera, and renderer as global variables.
 	var scene, camera, renderer;
 
@@ -56,7 +56,8 @@
 	  controls.update();
 	}
 	  
-</script>
+</script> -->
+
 <!-- <script>
 var camera, scene, renderer;
 var geometry, material, mesh;
@@ -106,6 +107,25 @@ loader.load('../images/hand.stl', function (geometry) {
 })
 
 </script> -->
+<div id="anim">
+	<svg width="0" height="0">
+	 <filter id="gooey-plasma">
+	      <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur"/>
+	      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 50 -16" result="goo" />
+	  </filter>
+	</svg>
+	<div class="plasma">
+	  <div class="gooey-container">
+	    <span class="bubble"></span>
+	    <span class="bubble"></span>
+	    <span class="bubble"></span>
+	    <span class="bubble"></span>
+	    <span class="bubble"></span>
+	    <span class="bubble"></span>
+	  </div>
+	</div>
+	
+</div>
 
 <div class="infos">
 	<div class="desc">
