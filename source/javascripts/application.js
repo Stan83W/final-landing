@@ -2,6 +2,7 @@
 //= require bootstrap
 //= require_tree .
 
+
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
