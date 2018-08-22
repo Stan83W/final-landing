@@ -1,6 +1,24 @@
+@font-face {
+  font-family: "monumentextended";
+  src: url("../../monumentextendedregular.otf");
+}
 
-
-
+h2 {
+	font-family: "monumentextended" !important;
+	text-transform: uppercase;
+	font-size: 8pt;
+	color: black !important;
+}
+.new-nav {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid black;
+}
+.new-nav-item {
+	width: 25%;
+	text-align: center;
+	margin: 25px !important;
+}
 
 
 
