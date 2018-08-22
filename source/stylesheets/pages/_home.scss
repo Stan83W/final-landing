@@ -7,7 +7,7 @@ h2 {
 	font-family: "monumentextended" !important;
 	text-transform: uppercase;
 	font-size: 8pt;
-	color: black !important;
+	color: black;
 }
 a {
 	text-decoration: none !important;
@@ -24,9 +24,24 @@ a {
 	padding: 25px;
 	border-right: 1px solid black;
 }
+.new-nav-item:hover {
+	background-color: black;
+	a {
+		color: white;	
+	}
+}
 
-
-
+.new-header {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	border-bottom: 1px solid black;
+}
+.header-item {
+	width: 33.333%;
+	padding: 40px;
+	border-right: 1px solid black;
+}
 
 
 
